@@ -1,0 +1,119 @@
+.profile-container {
+  background-image: url('/assets/background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh; /* Set a minimum height to ensure consistency */
+  min-width: 100vw; /* Set a minimum width to ensure consistency */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+ 
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+ 
+.profile-picture {
+  background-image: url("/assets/tst.png");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+ 
+.username {
+  font-size: 24px;
+  margin-top: 10px;
+}
+ 
+.about-message {
+  padding: 20px; /* Add padding to create space around the message content */
+}
+ 
+.about-message h1 {
+  margin-top: 10px; /* Adjust the margin to control the space above the heading */
+}
+ 
+.profile-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center buttons horizontally */
+  margin-top: 90px; /* Adjust as needed */
+}
+ 
+.rounded-button {
+  background-color: yellow;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 30px; /* Adjust the padding as needed */
+  margin: 10px 0; /* Add vertical margin to separate the buttons */
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%; /* Make the button span the container width */
+}
+ 
+.rounded-button:hover {
+  background-color: #ffcc00;
+}
+ 
+.back-button-container {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+ 
+.back-button {
+  color: #219C90;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+ 
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text within the container */
+}
+ 
+.profile-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+ 
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+ 
+.phone-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+ 
+.phone-container .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+ 
+.phone-container input {
+  flex: 1;
+  margin: 0;
+}
+ 
+.phone-container button {
+  margin-top: 8px;
+}
+ 

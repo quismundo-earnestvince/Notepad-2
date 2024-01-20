@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'JimNightshade-Regular';
+  src: url('/assets/fonts/JimNightshade-Regular.ttf') format('truetype'); /* Adjust the font file format accordingly if it's not a .ttf file */
+  /* You can also include other font properties like font-weight and font-style if needed */
+}
+
+.logo-container {
+  position: absolute;
+  top: -400px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: top 1s ease; /* Use a transition to create the drop-down effect */
+}
+
+.show-logo {
+  top: 100px; /* Transition to the final position when 'showLogo' becomes true */
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-49%);
+  font-size: 40px;
+  top: 300px; /* Keep this initial value as it will be changed dynamically in the code */
+  opacity: 0; /* Initially, set the text's opacity to 0 */
+  transition: opacity 1s ease; /* Add a fade-in transition for opacity */
+  width: 100%;
+  font-family: 'JimNightshade-Regular'; /* Use the imported font */
+}

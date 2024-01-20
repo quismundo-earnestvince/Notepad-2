@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Notepad",
+    "slug": "Notepad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E9B824"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#E9B824"
+      },
+      "package": "com.earnestvince.Notepad"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b5398c35-b13a-4d5a-aac8-97f1c3ed3b63"
+      }
+    }
+  }
+}
